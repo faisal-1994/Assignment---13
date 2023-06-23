@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 13</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="back">
+
+
+    
+        <!--Bootstrap Nav bar-->
+
+        <nav class="navbar fixed-top navbar-expand-lg shadow bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="NavMenuPanel">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand">Navbar Brand</a>     
+                 <!--background mode-->
+                <div class="container">
+                    <div class="col-1">
+                    <div class="row mt-1">
+                        
+                            <button onclick="dark()" class="col-1 dark text-end  text-dark float-end rounded-circle"></button>
+                            <button onclick="light()" class="col-1 normal text-end text-light float-end rounded-circle"></button>
+                            
+                        
+                    </div>
+                </div>
+                </div>
+                <div class="collapse navbar-collapse" id="NavMenuPanel">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Product</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                    </ul>
+
+                    <div>
+                        <form action="" class="d-flex">
+                            <input type="text" class="form-control">
+                            <button class="btn mx-2 btn-primary">Search</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <br>
+   
+    <br>
+
+   
+    <div class="container container-sm container-md container-lg container-xl container-xxl container-fluid">
+
+        <!--  Bootstrap Typography  // blockquote// -->
+        <h4 class="blockquote text-info mb-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+        <h5 class="blockquote-footer text-danger text-end mb-3">Faisal</h5>
+   
+
+       <!-- Layout Gutter (gt) //it is like padding-->
+
+    <div class="container container-sm container-md container-lg container-xl container-xxl">
+        <div class="pr row img-thumbnail g-xl-3">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 col-xxl-2  bg-primary gy-sm-1 gy-md-3 gy-lg-4 gy-lg-5 gy-xxl-5"></div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-success gy-sm-1 gy-md-3 gy-lg-4 gy-lg-5 gy-xxl-5"></div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-secondary gy-sm-1 gy-md-3 gy-lg-4 gy-lg-5 gy-xxl-5"></div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-danger gy-sm-1 gy-md-3 gy-lg-4 gy-lg-5 gy-xxl-5"></div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-warning gy-sm-1 gy-md-3 gy-lg-4 gy-lg-5 gy-xxl-5"></div>
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 col-xxl-2 bg-info gy-sm-1 gy-md-3 gy-lg-4 gy-lg-5 gy-xxl-5"></div>
+        </div> 
+    </div>
+    <br><br><br>
+    <!-- table striped & hover-->
+
+    <div class="container img-thumbnail ">
+        <div class="row">
+             <table class="table table-dark table-striped-columns table-hover">
+                <tr>
+                    <th>Name</th>
+                    <th>Roll</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                </tr>
+                <tr>
+                    <td >Farid</td>
+                    <td>01</td>
+                    <td>55</td>
+                    <td>Jobholder</td>
+                </tr>
+                <tr>
+                    <td>Kulsum</td>
+                    <td>02</td>
+                    <td>44</td>
+                    <td>Housewife</td>
+                </tr>
+                <tr>
+                    <td>Faisal</td>
+                    <td>03</td>
+                    <td>29</td>
+                    <td>Jobless</td>
+                </tr>
+                <tr>
+                    <td>Tania</td>
+                    <td>04</td>
+                    <td>24</td>
+                    <td>Housewife</td>
+                </tr>
+                <tr>
+                    <td>Fahim</td>
+                    <td>05</td>
+                    <td>24</td>
+                    <td>Jobless</td>
+                </tr>
+                <tr>
+                <td>Faiza</td>
+                <td>05</td>
+                <td>03</td>
+                <td>Jobless</td>
+               </tr>
+             </table>   
+
+
+        </div>
+    </div>
+    <br></br>
+    <!-- table color -->
+    <div class="container img-thumbnail">
+        <div class="row">
+            <div class="col-12">
+
+             <table class="table table-success "><tbody>
+                <tr class="table-danger">
+                    <th>Name</th>
+                    <th>Roll</th>
+                    <th >Age</th>
+                    <th>Occupation</th>
+                </tr>
+                <tr class="table-primary">
+                    <td>Farid</td>
+                    <td>01</td>
+                    <td class="table-danger">55</td>
+                    <td>Jobholder</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Kulsum</td>
+                    <td class="table-info">02</td>
+                    <td>44</td>
+                    <td>Housewife</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Faisal</td>
+                    <td >03</td>
+                    <td>29</td>
+                    <td class="table-danger">Jobless</td>
+                </tr>
+                <tr class="table-dark">
+                    <td>Tania</td>
+                    <td>04</td>
+                    <td class="table-light">24</td>
+                    <td>Housewife</td>
+                </tr>
+                <tr>
+                    <td>Fahim</td>
+                    <td class="table-info">05</td>
+                    <td>24</td>
+                    <td>Jobless</td>
+                </tr>
+                <tr>
+                <td class="table-danger">Faiza</td>
+                <td>05</td>
+                <td>03</td>
+                <td>Jobless</td>
+               </tr>
+             </div>
+             </tbody>
+             </table>   
+
+
+        </div>
+    </div>
+
+    <br>
+     <!-- table actions -->
+
+    <div class="container">
+        <div class="row">
+             <table class="table table-striped-columns table-bordered">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td >Farid</td>
+                    <td>farid@gamil.com</td>
+                    <td><button class="btn btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>Kulsum</td>
+                    <td>kulsum@gmail.com</td>
+                    <td><button class="btn btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>Faisal</td>
+                    <td>faisal@gmail.com</td>
+                    <td><button class="btn btn-info">Edit</button></td>
+                </tr>
+       
+
+             </table>   
+        </div>
+    </div>
+<br>
+
+
+    <!-- Bootstrap Form -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <form action="">
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" name="" id=""class="form-control-lg col-12"> <br>
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" name="" id=""class="form-control" disabled> <br>
+                    <input type="text" name="" id=""class="form-control" readonly> <br>
+                    <input type="text" name="" id=""class="form-control"> <br>
+                    <input type="text" name="" id=""class="form-control"> <br> 
+                    <input type="file" name="" id="" class="form-control"> <br> 
+
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--form select-->
+
+   <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <label for="">Country</label>
+            <select name="" id="" class="form-select-md">
+                <option value="1" >Country</option>
+                <option value="2" selected>Bangladesh</option>
+                <option value="3">India</option>
+                <option value="4">Pakistan</option>
+                <option value="5">Srilanka</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <!-- form-check-->
+
+    <div class="row">
+
+        <div class="form-check">
+            <label for="">Gender : </label>
+            <input type="checkbox" class="form-check-label">
+            <label for="">Male</label>
+            <input type="checkbox" class="form-check-label">
+            <label for="">Female</label>
+            <input type="checkbox" class="form-check-label">
+            <label for="">Others</label>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="form-check">
+            <label for="">Gender : </label>
+            <input type="radio" name="gender" class="form-check-label">
+            <label for="">Male</label>
+            <input type="radio" name="gender" class="form-check-label">
+            <label for="">Female</label>
+            <input type="radio" name="gender" class="form-check-label">
+            <label for="">Others</label>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-12">
+            <input type="range" name="" id="" >
+            <input type="range" name="" id="" min="" max="10" class="form-range">
+            <input type="range" name="" id="" min="" max="10" step="2" class="form-range">
+            <input type="range" name="" id="" min="" max="10" class="form-range" disabled>
+        </div>
+    </div>
+   </div>
+<br>
+
+<!-- alert -->
+
+   <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-danger">
+                This is bootstrap alert
+            </div>
+
+            <div class="alert alert-warning">
+                This is bootstrap alert
+            </div>
+
+            <div class="alert alert-primary">
+                This is bootstrap alert
+            </div>
+
+            <div class="alert alert-info">
+                This is bootstrap alert
+            </div>
+
+            <div class="alert alert-light">
+                This is bootstrap alert
+            </div>
+        </div>
+    </div>
+   </div>
+   <br>
+
+   <!-- button -->
+
+   <div class="container">
+    <div class="row">
+        <div class="col-12">
+           <button class="btn btn-primary">click</button> 
+           <button class="btn btn-warning">click</button>
+           <button class="btn btn-danger">click</button>
+           <button class="btn btn-dark">click</button>
+           <button class="btn btn-light">click</button>
+           <button class="btn btn-success">click</button>
+           <button class="btn btn-info">click</button>
+           <button class="btn btn-secondary">click</button>
+        </div>
+    </div>
+    <br>
+
+    <!-- dropdown button -->
+
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+            <div class="dropdown">
+           <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Division</button> 
+           <ul class="dropdown-menu">
+                <li class="dropdown-item">Bangladesh</li>
+                <li class="dropdown-item">India</li>
+                <li class="dropdown-item">Pakistan</li>
+                <li class="dropdown-item">Srilanka</li>
+              
+           </ul>
+           <button class="btn btn-warning">click</button>
+           <button class="btn btn-danger">click</button>
+           <button class="btn btn-dark">click</button>
+           <button class="btn btn-light">click</button>
+           <button class="btn btn-success">click</button>
+           <button class="btn btn-info">click</button>
+        </div>
+        </div>
+    </div> 
+    <br>
+
+    <!-- list group-->
+
+   <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Bangladesh</li>
+                    <li class="list-group-item">India</li>
+                    <li class="list-group-item">UK</li>
+                    <li class="list-group-item">USA</li>
+                    <li class="list-group-item">UAE</li> 
+                </ul>
+                <br>
+                <ul class="list-group">
+                    <li class="list-group-item">Bangladesh</li>
+                    <li class="list-group-item">India</li>
+                    <li class="list-group-item">UK</li>
+                    <li class="list-group-item">USA</li>
+                    <li class="list-group-item">UAE</li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+
+       <!-- spinner-->
+
+   <div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="spinner-border text-success">
+
+            </div>
+            <div class="spinner-border text-primary">
+
+            </div>
+            <div class="spinner-border text-danger">
+
+            </div>
+            <div class="spinner-border text-warning">
+
+            </div>
+
+            <div class="spinner-border text-secondary">
+
+            </div>
+            <div class="spinner-border text-light">
+
+            </div>
+        </div>
+
+            
+        <div class="col-6">
+            <div class="spinner-grow text-success">
+
+            </div>
+            <div class="spinner-grow text-primary">
+
+            </div>
+            <div class="spinner-grow text-danger">
+
+            </div>
+            <div class="spinner-grow text-warning">
+           
+            </div>
+
+            <div class="spinner-grow text-secondary">
+
+            </div>
+            <div class="spinner-grow text-light">
+
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<br>
+
+    <!--Bootstrap progress bar-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85.85%;" >Progress has been increased by 85.85%</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+ <!--Bootstrap Placeholders-->
+
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 p-3">
+            <p class="placeholder-wave">
+                <span class="placeholder col-6 my-3 bg-light"></span>
+                <span class="placeholder col-6 my-3 bg-info"></span>
+                <span class="placeholder placeholder-sm col-6 my-3 bg-danger"></span>
+                <span class="placeholder placeholder-lg col-6 my-3 bg-warning"></span>
+                <span class="placeholder placeholder-lg col-6 my-3 bg-danger"></span>
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+
+ <!--pagination-->
+
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-12 p-3">
+           <nav>
+            <ul class="pagination pagination-lg">
+                <li class="page-item"> 
+                    <a href="#" class="page-link">
+                        Prev.
+                    </a>
+                </li>
+                <li class="page-item"> 
+                    <a href="#" class="page-link">
+                        1
+                    </a>
+                </li>
+
+                <li class="page-item"> 
+                    <a href="#" class="page-link">
+                        2
+                    </a>
+                </li> 
+                <li class="page-item active"> 
+                    <a href="#" class="page-link">
+                        3
+                    </a>
+                </li> 
+                <li class="page-item"> 
+                    <a href="#" class="page-link">
+                        Next
+                    </a>
+                </li>          </ul>
+           </nav>
+        </div>
+    </div>
+</div>
+<br>
+
+ <!--offcanvas-->
+
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 p-3">
+            <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#id">
+                click
+            </button>
+
+            <div class="offcanvas offcanvas-bottom " tabindex="-1" id="id">
+               
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">
+                            Title
+                    </h5>
+                    <button class="btn-close" data-bs-dismiss="offcanvas">
+
+                    </button>
+                </div>
+
+                <div class="offcanvas-body">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+ <!--modal--><!--modal-->
+
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 p-3">
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalid">
+                click to launch modal
+            </button>
+
+            <div class="modal fade " tabindex="-1" id="modalid">
+               
+                <div class="modal-dialog modal-dialog-centered modal-sm">
+                    <div class="modal-content">
+
+
+                                     <!--modal header-->
+                        <div class="modal-header">
+                            <h5 class="modal-title">
+                                    Modal Title
+                            </h5>
+
+                            <button class="btn-close" data-bs-dismiss="modal" aria-label="close">
+                            </button>
+
+                        </div>
+
+                                    <!--modal body-->
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://placehold.co/600x400/00000/FFFFFF/png" class="w-100" alt="">
+
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, culpa nihil cupiditate qui necessitatibus blanditiis facere accusantium dolorum voluptas? Magnam voluptate quis incidunt accusantium aliquam, quod dicta ullam. Tempore animi numquam, alias tenetur ipsam mollitia error perspiciatis labore placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quaerat quisquam repellat tempore dolore rerum vitae iusto obcaecati quia! Deleniti laboriosam dolor delectus distinctio voluptatibus dolore commodi in, nisi accusantium odit. Porro laudantium id rerum labore laboriosam soluta error cum, quod quasi quisquam amet ipsum nam natus sunt esse, ut sint asperiores est ea perspiciatis eos nemo magni. Deleniti doloremque a quaerat, dolor sint inventore modi nemo odio autem vitae praesentium atque! Nam recusandae fugiat eveniet expedita reprehenderit consequuntur possimus architecto ea a facilis. Possimus consectetur iure soluta quo eveniet voluptates ad error repellendus unde hic a, aspernatur quasi quos veniam voluptatem neque molestias asperiores provident accusantium et natus nisi ratione. Placeat temporibus consequuntur laboriosam soluta at quasi ex libero. Laudantium nostrum rem id nemo inventore provident ea animi dolores odio voluptatum non odit aspernatur optio laborum quidem, fugiat aliquam beatae magni. Impedit dicta nam perspiciatis, atque voluptatem eveniet quos?</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+
+                                <!--modal footer-->
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal">
+                                Cancel
+                            </button>
+        
+                            <button class="btn btn-success">
+                                Confirm
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+
+<!-- Bootstrap Tab View-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 p-3">
+            <nav>
+                <div class="nav nav-tabs">
+
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#HomeView">Home</button>
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#ProfileView">Profile</button>
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ContactView">Contact</button>
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#AboutView">About</button>
+
+                </div>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade " id="HomeView">
+                        <p>This is Home Content</p>
+                    </div>
+
+                    <div class="tab-pane fade show active" id="ProfileView">
+                        <p>This is Profile Content</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="ContactView">
+                        <p>This is Contact Content</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="AboutView">
+                        <p>This is About Content</p>
+                    </div>
+
+                </div>
+                 
+            </nav>
+
+            
+        </div>
+    </div>
+</div>
+
+<br>
+
+      <!--Aspect ratio-->
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 p-2">
+               <div class="ratio bg-secondary ratio-1x1"></div>
+            </div>
+            <div class="col-4 p-2">
+                <div class="ratio bg-success ratio-4x3"></div>
+            </div>
+            <div class="col-4 p-2">
+                <div class="ratio bg-secondary ratio-16x9"></div>
+            </div>
+            <div class="col-4 p-2">
+                <div class="ratio bg-info ratio-21x9"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+        <!--Bootstrap Text Truncation-->
+                 <!-- block truncate -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 text-truncate">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam laborum perspiciatis. In officiis illo facere, odio iusto iure sapiente quis obcaecati? Architecto possimus, qui animi eaque omnis voluptates ipsam.
+                </div>
+
+                <!-- inline truncate -->
+               <span class="text-truncate" style=" max-width: 300px;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, inventore, accusamus quisquam provident adipisci velit ab eaque, libero atque tenetur ullam mollitia. Reprehenderit ipsam eligendi doloremque nostrum asperiores labore, saepe totam ipsa velit beatae, quae molestiae rem. Eum, dolore fugit iure, inventore perferendis modi at odio laudantium molestiae amet sit?
+               </span>
+             
+            </div>
+        </div>
+        <br>
+
+        <!-- Utilities Background Color Text Color -->
+
+        <div class="w-50 bg-info-subtle" style="height: 225px;"></div>
+
+        <p class="text-info">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="text-info-emphasis">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="text-danger-emphasis">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="text-primary-emphasis">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        
+        <div class="img">
+            <img src="https://placehold.co/600x400/00000/FFFFFF/png" alt="" class="">
+        </div>
+    
+
+
+
+
+
+
+
+
+</div>
+<script src="js/bootstrap.bundle.js">
+</script> 
+<script src="js/script.js">     
+</script> 
+</body>
+</html>

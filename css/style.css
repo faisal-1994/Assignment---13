@@ -1,0 +1,26 @@
+
+.circle{
+    height: 140px;
+    width:140px;
+    
+}   
+.dark, .normal{
+    height: 20px;
+    width: 20px;
+   border-color: transparent;
+background-color: transparent;
+}
+
+.dark{
+    background-color: black;
+}
+
+.h2{
+    background-color: black;
+    color: white;
+}
+
+.pr div{
+    height: 50px;
+}
+
